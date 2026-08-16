@@ -47,27 +47,19 @@ export function renderWithProviders(
     loading = false,
     error = null,
     route = "/",
-    contextOverrides = {},
-    ...options
   } = {}
 ) {
-  const value = {
-    store,
-    products,
-    setProducts: vi.fn(),
-    loading,
-    error,
-    loadData: vi.fn(),
-    ...contextOverrides,
-  };
-
-  return {
-    ...render(
-      <StoreContext.Provider value={value}>
-        <MemoryRouter initialEntries={[route]}>{ui}</MemoryRouter>
-      </StoreContext.Provider>,
-      options
-    ),
-    context: value,
-  };
+  return render(
+    <StoreContext.Provider
+      value={{
+        store,
+        products,
+        setProducts: vi.fn(),
+        loading,
+        error,
+      }}
+    >
+      <MemoryRouter initialEntries={[route]}>{ui}</MemoryRouter>
+    </StoreContext.Provider>
+  );
 }

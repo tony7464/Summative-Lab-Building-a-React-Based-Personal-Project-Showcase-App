@@ -39,7 +39,6 @@ export function StoreProvider({ children }) {
     setProducts,
     loading,
     error,
-    loadData,
   };
 
   return (

@@ -27,10 +27,6 @@ export function getProducts() {
   return request("/products");
 }
 
-export function getProduct(id) {
-  return request(`/products/${id}`);
-}
-
 export function createProduct(product) {
   return request("/products", {
     method: "POST",

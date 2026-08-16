@@ -1,4 +1,4 @@
-import { act, renderHook, waitFor } from "@testing-library/react";
+import { act, renderHook } from "@testing-library/react";
 import { beforeEach, describe, expect, it, vi } from "vitest";
 import { StoreContext } from "../context/StoreContext";
 import { defaultProducts, defaultStore } from "../test-utils";
@@ -22,7 +22,6 @@ function wrapper({ children }) {
         setProducts,
         loading: false,
         error: null,
-        loadData: vi.fn(),
       }}
     >
       {children}
@@ -65,8 +64,6 @@ describe("useProducts", () => {
       await result.current.removeProduct(1);
     });
 
-    await waitFor(() => {
-      expect(deleteProduct).toHaveBeenCalledWith(1);
-    });
+    expect(deleteProduct).toHaveBeenCalledWith(1);
   });
 });

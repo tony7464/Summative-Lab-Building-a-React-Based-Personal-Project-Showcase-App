@@ -3,7 +3,7 @@ import { useStore } from "../context/StoreContext";
 
 // Custom hook: wraps CRUD so pages never talk to fetch directly.
 export function useProducts() {
-  const { products, setProducts, loading, error, loadData } = useStore();
+  const { products, setProducts, loading, error } = useStore();
 
   async function addProduct(product) {
     const created = await createProduct(product);
@@ -33,6 +33,5 @@ export function useProducts() {
     addProduct,
     editProduct,
     removeProduct,
-    loadData,
   };
 }
