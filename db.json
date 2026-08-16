@@ -1,0 +1,111 @@
+{
+  "store_info": [
+    {
+      "id": 1,
+      "name": "The Groove Vault",
+      "tagline": "Vinyl for the long play",
+      "description": "The Groove Vault is a neighborhood listening room and record shop. We stock jazz, soul, hip-hop, and left-field electronic — pressed loud, priced fairly, and ready for your next Saturday spin. This admin portal is where staff add new arrivals, update prices, and keep the bins honest.",
+      "phone_number": "555-GROOVE",
+      "address": "14 Needle Lane, Brooklyn, NY",
+      "hours": "Tue–Sun, 11am–8pm"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Kind of Blue",
+      "artist": "Miles Davis",
+      "description": "A modal jazz landmark. Cool, spacious, and still the record we hand first-time listeners.",
+      "genre": "Jazz",
+      "year": 1959,
+      "price": 32,
+      "origin": "USA",
+      "image": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=900&q=80",
+      "inStock": true
+    },
+    {
+      "id": 2,
+      "name": "What's Going On",
+      "artist": "Marvin Gaye",
+      "description": "Soul with a conscience. Warm strings, soft drums, and a voice that still asks the hard questions.",
+      "genre": "Soul",
+      "year": 1971,
+      "price": 30,
+      "origin": "USA",
+      "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=900&q=80",
+      "inStock": true
+    },
+    {
+      "id": 3,
+      "name": "Blue Lines",
+      "artist": "Massive Attack",
+      "description": "Bristol trip-hop at its smokiest. Bass you can feel in the floorboards.",
+      "genre": "Trip-Hop",
+      "year": 1991,
+      "price": 34,
+      "origin": "UK",
+      "image": "https://images.unsplash.com/photo-1619983081563-430f63602799?auto=format&fit=crop&w=900&q=80",
+      "inStock": true
+    },
+    {
+      "id": 4,
+      "name": "Illmatic",
+      "artist": "Nas",
+      "description": "East Coast hip-hop, tight as a subway turnstile. Every verse earns its place.",
+      "genre": "Hip-Hop",
+      "year": 1994,
+      "price": 36,
+      "origin": "USA",
+      "image": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=900&q=80",
+      "inStock": true
+    },
+    {
+      "id": 5,
+      "name": "Rumours",
+      "artist": "Fleetwood Mac",
+      "description": "Heartbreak polished into radio gold. The copy we keep behind the counter for rainy days.",
+      "genre": "Rock",
+      "year": 1977,
+      "price": 28,
+      "origin": "USA",
+      "image": "https://images.unsplash.com/photo-1510915361894-db8b60106cb1?auto=format&fit=crop&w=900&q=80",
+      "inStock": true
+    },
+    {
+      "id": 6,
+      "name": "Dummy",
+      "artist": "Portishead",
+      "description": "Haunted samples and a voice like late-night film noir. Play it after close.",
+      "genre": "Trip-Hop",
+      "year": 1994,
+      "price": 33,
+      "origin": "UK",
+      "image": "https://images.unsplash.com/photo-1458560871784-56d23406c091?auto=format&fit=crop&w=900&q=80",
+      "inStock": false
+    },
+    {
+      "id": 7,
+      "name": "The Miseducation of Lauryn Hill",
+      "artist": "Lauryn Hill",
+      "description": "Hip-hop, soul, and a whole syllabus of feeling. Required listening, forever.",
+      "genre": "Soul",
+      "year": 1998,
+      "price": 35,
+      "origin": "USA",
+      "image": "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&w=900&q=80",
+      "inStock": true
+    },
+    {
+      "id": 8,
+      "name": "Discovery",
+      "artist": "Daft Punk",
+      "description": "Robot-pop joy. Sequins, filters, and the best homework soundtrack in the shop.",
+      "genre": "Electronic",
+      "year": 2001,
+      "price": 38,
+      "origin": "France",
+      "image": "https://images.unsplash.com/photo-1539375665275-f9de415ef9ac?auto=format&fit=crop&w=900&q=80",
+      "inStock": true
+    }
+  ]
+}
